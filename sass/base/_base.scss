@@ -1,0 +1,17 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html{
+    //defines what 1 rem is
+    font-size: 62.5%;
+    /* of the default 16px(gives 10px) */
+}
+
+body {
+    box-sizing: border-box; /*in the box model borders and padding r no longer added to the total width/height of elt */
+}
